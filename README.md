@@ -2,11 +2,11 @@
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-A collection of projects for the Machine Learning Engineer Nanodegree from Udacity [AWS DeepRacer Challenge Scholarship].
-
 <p align="center">
   <img src="./images/aws-deepracer-scholarship.jpg" width="25%">
 </p>
+
+A collection of projects for the Machine Learning Engineer Nanodegree from Udacity [AWS DeepRacer Challenge Scholarship].
 
 ## [Project 1: Deploy a Sentiment Analysis Model](https://github.com/suryasanchez/machine-learning-engineer-nanodegree/tree/master/P1-sentiment-analysis)
 
