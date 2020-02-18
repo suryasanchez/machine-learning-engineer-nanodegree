@@ -11,3 +11,7 @@ A collection of projects for the Machine Learning Engineer Nanodegree from Udaci
 ## [Project 1: Deploy a Sentiment Analysis Model](https://github.com/suryasanchez/machine-learning-engineer-nanodegree/tree/master/P1-sentiment-analysis)
 
 Sentiment Analysis Web App is a notebook and collection of Python files. It is a deployed RNN performing sentiment analysis on movie reviews complete with publicly accessible API and a simple web page which interacts with the deployed endpoint.
+
+## [Project 2: Plagiarism Detector](https://github.com/suryasanchez/machine-learning-engineer-nanodegree/tree/master/P2-plagiarism-detection)
+
+Plagiarism Detector is an end-to-end plagiarism classification model. Clean data, extract meaningful features, and deploy a plagiarism classifier in SageMaker.
