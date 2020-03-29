@@ -6,12 +6,12 @@ Project for Udacity MLDN. [Machine Learning Engineer Nanodegree](https://www.uda
 The project is about using machine learning to send a custom email to the lead based on the project’s description.
 
 <p align="center">
-  <img src="./img/workflow-overview.png" width="100%">
+  <img src="./img/workflow-overview.png" width="50%">
 </p>
 
-### [1. Capstone Proposal](https://github.com/suryasanchez/machine-learning-engineer-nanodegree/tree/master/P3-capstone-project/Capstone-Proposal.pdf)
+## [1. Capstone Proposal](https://github.com/suryasanchez/machine-learning-engineer-nanodegree/tree/master/P3-capstone-project/Capstone-Proposal.pdf)
 
-### [2. Capstone Notebook](https://github.com/suryasanchez/machine-learning-engineer-nanodegree/tree/master/P3-capstone-project/Capstone-Notebook.ipynb)
+## [2. Capstone Notebook](https://github.com/suryasanchez/machine-learning-engineer-nanodegree/tree/master/P3-capstone-project/Capstone-Notebook.ipynb)
 
 ### Environment
 
