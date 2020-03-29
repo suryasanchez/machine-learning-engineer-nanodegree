@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# File with credentials and config
+config.json
+
+# Mac OS X stuff
+.DS_Store
+
+# logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints

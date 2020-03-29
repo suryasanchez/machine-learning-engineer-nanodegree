@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lead classifier</title>
+        <meta charset="utf-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script>
+         "use strict";
+         function submitForm(oFormElement) {
+             var xhr = new XMLHttpRequest();
+             xhr.onload = function() {
+                 var result = Math.round(parseFloat(xhr.responseText));
+                 var resultElement = document.getElementById('result');
+                 if (result == 0) {
+                     resultElement.className = 'bg-primary';
+                     resultElement.innerHTML = 'Your lead wants a website.';
+                    } else if (result == 1) {
+                     resultElement.className = 'bg-success';
+                     resultElement.innerHTML = 'Your lead wants something else than a website!';
+                    } else if (result == 2) {
+                     resultElement.className = 'bg-info';
+                     resultElement.innerHTML = 'Your lead wants a migration';
+                    } else if (result == 3) {
+                     resultElement.className = 'bg-secondary';
+                     resultElement.innerHTML = 'Your lead wants something custom.';
+                    } else {
+                     resultElement.className = 'bg-danger';
+                     resultElement.innerHTML = 'Error';
+                }
+             }
+             xhr.open (oFormElement.method, oFormElement.action, true);
+             var review = document.getElementById('review');
+             xhr.send (review.value);
+             return false;
+         }
+        </script>
+
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>Does your lead want a website?</h1>
+            <p>Enter the project's description in French below and click submit to find out...</p>
+            <form method="POST"
+                  action="https://hv47iwo1kd.execute-api.eu-west-1.amazonaws.com/prod"
+                  onsubmit="return submitForm(this);" >
+                <div class="form-group">
+                    <label for="review">Project:</label>
+                    <textarea class="form-control"  rows="5" id="review">Please write your project's description here.</textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <h1 class="bg-success" id="result"></h1>
+        </div>
+    </body>
+</html>
