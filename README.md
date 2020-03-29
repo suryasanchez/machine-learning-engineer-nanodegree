@@ -18,4 +18,4 @@ Plagiarism Detector is an end-to-end plagiarism classification model. Clean data
 
 ## [Project 3: Capstone Project](https://github.com/suryasanchez/machine-learning-engineer-nanodegree/tree/master/P3-capstone-project)
 
-The Capstone Project *"Send custom emails to leads with Machine Learning"* is a NLP trained algorithm to classify leads into category in order to send an automated relevent email.
+The Capstone Project *"Send custom emails to leads with Machine Learning"* is a NLP trained algorithm to classify leads into categories in order to send an automated email.
