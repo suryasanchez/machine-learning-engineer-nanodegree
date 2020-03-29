@@ -58,7 +58,7 @@ def lambda_handler(event, context):
     runtime = boto3.Session().client('sagemaker-runtime')
 
     # Now we use the SageMaker runtime to invoke our endpoint, sending the review we were given
-    response = runtime.invoke_endpoint(EndpointName = 'sagemaker-xgboost-2020-03-28-20-51-47-434',
+    response = runtime.invoke_endpoint(EndpointName = 'sagemaker-xgboost-2020-03-29-03-10-59-734',
                                        # The name of the endpoint we created
                                        ContentType = 'text/csv',
                                        Body = ','.join([str(val) for val in bow]).encode('utf-8'))

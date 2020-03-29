@@ -13,6 +13,8 @@ The project is about using machine learning to send a custom email to the lead b
 
 ## [2. Capstone Notebook](https://github.com/suryasanchez/machine-learning-engineer-nanodegree/tree/master/P3-capstone-project/Capstone-Notebook.ipynb)
 
+## [3. Capstone Web App](https://github.com/suryasanchez/machine-learning-engineer-nanodegree/tree/master/P3-capstone-project/index.html)
+
 ### Environment
 
 * AWS Sagemaker
